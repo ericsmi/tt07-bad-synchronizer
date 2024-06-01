@@ -7,7 +7,7 @@
 
 // Implement Figure 29.3 from Dally & Harting to see how bad it is in practice. 
 
-module tt_ericsmi_bad_synchronizer (
+module tt_um_ericsmi_bad_synchronizer (
     input  wire [7:0] ui_in,    // Dedicated inputs
     output wire [7:0] uo_out,   // Dedicated outputs
     input  wire [7:0] uio_in,   // IOs: Input path
